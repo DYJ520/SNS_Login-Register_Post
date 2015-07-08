@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647DD4831B0F13330091E621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4821B0F13330091E621 /* main.m */; };
+		647DD4861B0F13330091E621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4851B0F13330091E621 /* AppDelegate.m */; };
+		647DD4881B0F13330091E621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DD4871B0F13330091E621 /* Images.xcassets */; };
+		647DD4971B0F13330091E621 /* SNS_Login_Register_PostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4961B0F13330091E621 /* SNS_Login_Register_PostTests.m */; };
+		647DD4A51B0F14110091E621 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4A31B0F14110091E621 /* LoginViewController.m */; };
+		647DD4A61B0F14110091E621 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647DD4A41B0F14110091E621 /* LoginViewController.xib */; };
+		647DD4AA1B0F16EA0091E621 /* LZXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4A91B0F16EA0091E621 /* LZXHttpRequest.m */; };
+		647DD4AD1B0F30AA0091E621 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 647DD4AC1B0F30AA0091E621 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647DD4911B0F13330091E621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647DD4751B0F13330091E621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647DD47C1B0F13330091E621;
+			remoteInfo = "SNS_Login&Register_Post";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647DD47D1B0F13330091E621 /* SNS_Login&Register_Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNS_Login&Register_Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647DD4811B0F13330091E621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647DD4821B0F13330091E621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647DD4841B0F13330091E621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		647DD4851B0F13330091E621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		647DD4871B0F13330091E621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		647DD4901B0F13330091E621 /* SNS_Login&Register_PostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SNS_Login&Register_PostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647DD4951B0F13330091E621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647DD4961B0F13330091E621 /* SNS_Login_Register_PostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNS_Login_Register_PostTests.m; sourceTree = "<group>"; };
+		647DD4A01B0F137A0091E621 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		647DD4A21B0F14110091E621 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		647DD4A31B0F14110091E621 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		647DD4A41B0F14110091E621 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		647DD4A81B0F16EA0091E621 /* LZXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZXHttpRequest.h; sourceTree = "<group>"; };
+		647DD4A91B0F16EA0091E621 /* LZXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZXHttpRequest.m; sourceTree = "<group>"; };
+		647DD4AB1B0F30AA0091E621 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		647DD4AC1B0F30AA0091E621 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647DD47A1B0F13330091E621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DD48D1B0F13330091E621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647DD4741B0F13330091E621 = {
+			isa = PBXGroup;
+			children = (
+				647DD4A01B0F137A0091E621 /* Define.h */,
+				647DD47F1B0F13330091E621 /* SNS_Login&Register_Post */,
+				647DD4931B0F13330091E621 /* SNS_Login&Register_PostTests */,
+				647DD47E1B0F13330091E621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647DD47E1B0F13330091E621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647DD47D1B0F13330091E621 /* SNS_Login&Register_Post.app */,
+				647DD4901B0F13330091E621 /* SNS_Login&Register_PostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647DD47F1B0F13330091E621 /* SNS_Login&Register_Post */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4A71B0F16CB0091E621 /* NET */,
+				647DD4A11B0F13B50091E621 /* Controllers */,
+				647DD4841B0F13330091E621 /* AppDelegate.h */,
+				647DD4851B0F13330091E621 /* AppDelegate.m */,
+				647DD4871B0F13330091E621 /* Images.xcassets */,
+				647DD4801B0F13330091E621 /* Supporting Files */,
+			);
+			path = "SNS_Login&Register_Post";
+			sourceTree = "<group>";
+		};
+		647DD4801B0F13330091E621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4811B0F13330091E621 /* Info.plist */,
+				647DD4821B0F13330091E621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647DD4931B0F13330091E621 /* SNS_Login&Register_PostTests */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4961B0F13330091E621 /* SNS_Login_Register_PostTests.m */,
+				647DD4941B0F13330091E621 /* Supporting Files */,
+			);
+			path = "SNS_Login&Register_PostTests";
+			sourceTree = "<group>";
+		};
+		647DD4941B0F13330091E621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4951B0F13330091E621 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647DD4A11B0F13B50091E621 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4A21B0F14110091E621 /* LoginViewController.h */,
+				647DD4A31B0F14110091E621 /* LoginViewController.m */,
+				647DD4A41B0F14110091E621 /* LoginViewController.xib */,
+				647DD4AB1B0F30AA0091E621 /* DetailViewController.h */,
+				647DD4AC1B0F30AA0091E621 /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		647DD4A71B0F16CB0091E621 /* NET */ = {
+			isa = PBXGroup;
+			children = (
+				647DD4A81B0F16EA0091E621 /* LZXHttpRequest.h */,
+				647DD4A91B0F16EA0091E621 /* LZXHttpRequest.m */,
+			);
+			name = NET;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647DD47C1B0F13330091E621 /* SNS_Login&Register_Post */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647DD49A1B0F13330091E621 /* Build configuration list for PBXNativeTarget "SNS_Login&Register_Post" */;
+			buildPhases = (
+				647DD4791B0F13330091E621 /* Sources */,
+				647DD47A1B0F13330091E621 /* Frameworks */,
+				647DD47B1B0F13330091E621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNS_Login&Register_Post";
+			productName = "SNS_Login&Register_Post";
+			productReference = 647DD47D1B0F13330091E621 /* SNS_Login&Register_Post.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647DD48F1B0F13330091E621 /* SNS_Login&Register_PostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647DD49D1B0F13330091E621 /* Build configuration list for PBXNativeTarget "SNS_Login&Register_PostTests" */;
+			buildPhases = (
+				647DD48C1B0F13330091E621 /* Sources */,
+				647DD48D1B0F13330091E621 /* Frameworks */,
+				647DD48E1B0F13330091E621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647DD4921B0F13330091E621 /* PBXTargetDependency */,
+			);
+			name = "SNS_Login&Register_PostTests";
+			productName = "SNS_Login&Register_PostTests";
+			productReference = 647DD4901B0F13330091E621 /* SNS_Login&Register_PostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647DD4751B0F13330091E621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "轩哥";
+				TargetAttributes = {
+					647DD47C1B0F13330091E621 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					647DD48F1B0F13330091E621 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 647DD47C1B0F13330091E621;
+					};
+				};
+			};
+			buildConfigurationList = 647DD4781B0F13330091E621 /* Build configuration list for PBXProject "SNS_Login&Register_Post" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647DD4741B0F13330091E621;
+			productRefGroup = 647DD47E1B0F13330091E621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647DD47C1B0F13330091E621 /* SNS_Login&Register_Post */,
+				647DD48F1B0F13330091E621 /* SNS_Login&Register_PostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647DD47B1B0F13330091E621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DD4881B0F13330091E621 /* Images.xcassets in Resources */,
+				647DD4A61B0F14110091E621 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DD48E1B0F13330091E621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647DD4791B0F13330091E621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DD4AD1B0F30AA0091E621 /* DetailViewController.m in Sources */,
+				647DD4861B0F13330091E621 /* AppDelegate.m in Sources */,
+				647DD4831B0F13330091E621 /* main.m in Sources */,
+				647DD4AA1B0F16EA0091E621 /* LZXHttpRequest.m in Sources */,
+				647DD4A51B0F14110091E621 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647DD48C1B0F13330091E621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DD4971B0F13330091E621 /* SNS_Login_Register_PostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647DD4921B0F13330091E621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647DD47C1B0F13330091E621 /* SNS_Login&Register_Post */;
+			targetProxy = 647DD4911B0F13330091E621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		647DD4981B0F13330091E621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		647DD4991B0F13330091E621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647DD49B1B0F13330091E621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "SNS_Login&Register_Post/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		647DD49C1B0F13330091E621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "SNS_Login&Register_Post/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		647DD49E1B0F13330091E621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNS_Login&Register_PostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS_Login&Register_Post.app/SNS_Login&Register_Post";
+			};
+			name = Debug;
+		};
+		647DD49F1B0F13330091E621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNS_Login&Register_PostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNS_Login&Register_Post.app/SNS_Login&Register_Post";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647DD4781B0F13330091E621 /* Build configuration list for PBXProject "SNS_Login&Register_Post" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DD4981B0F13330091E621 /* Debug */,
+				647DD4991B0F13330091E621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647DD49A1B0F13330091E621 /* Build configuration list for PBXNativeTarget "SNS_Login&Register_Post" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DD49B1B0F13330091E621 /* Debug */,
+				647DD49C1B0F13330091E621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647DD49D1B0F13330091E621 /* Build configuration list for PBXNativeTarget "SNS_Login&Register_PostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647DD49E1B0F13330091E621 /* Debug */,
+				647DD49F1B0F13330091E621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647DD4751B0F13330091E621 /* Project object */;
+}
